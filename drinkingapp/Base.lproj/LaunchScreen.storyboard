@@ -28,6 +28,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Welcome_drinkingapp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8sq-fk-nHi">
+                                <rect key="frame" x="67" y="20" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -37,4 +41,7 @@
             <point key="canvasLocation" x="361" y="452"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Welcome_drinkingapp.jpg" width="1000" height="562"/>
+    </resources>
 </document>
