@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2071B82B1F549F590054FC95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071B82A1F549F590054FC95 /* FirstViewController.swift */; };
+		2071B82D1F549F9B0054FC95 /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */; };
 		20FE30BB1F549A950004F8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE30BA1F549A950004F8C6 /* AppDelegate.swift */; };
-		20FE30BD1F549A950004F8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE30BC1F549A950004F8C6 /* ViewController.swift */; };
 		20FE30C01F549A950004F8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FE30BE1F549A950004F8C6 /* Main.storyboard */; };
 		20FE30C21F549A950004F8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FE30C11F549A950004F8C6 /* Assets.xcassets */; };
 		20FE30C51F549A950004F8C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FE30C31F549A950004F8C6 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2071B82A1F549F590054FC95 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecoundViewController.swift; sourceTree = "<group>"; };
 		20FE30B71F549A950004F8C6 /* drinkingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FE30BA1F549A950004F8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20FE30BC1F549A950004F8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20FE30BF1F549A950004F8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20FE30C11F549A950004F8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FE30C41F549A950004F8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +99,9 @@
 		20FE30B91F549A950004F8C6 /* drinkingapp */ = {
 			isa = PBXGroup;
 			children = (
+				2071B82A1F549F590054FC95 /* FirstViewController.swift */,
+				2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */,
 				20FE30BA1F549A950004F8C6 /* AppDelegate.swift */,
-				20FE30BC1F549A950004F8C6 /* ViewController.swift */,
 				20FE30BE1F549A950004F8C6 /* Main.storyboard */,
 				20FE30C11F549A950004F8C6 /* Assets.xcassets */,
 				20FE30C31F549A950004F8C6 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FE30BD1F549A950004F8C6 /* ViewController.swift in Sources */,
+				2071B82D1F549F9B0054FC95 /* SecoundViewController.swift in Sources */,
 				20FE30BB1F549A950004F8C6 /* AppDelegate.swift in Sources */,
+				2071B82B1F549F590054FC95 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				20FE30E11F549A950004F8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20FE30E21F549A950004F8C6 /* Build configuration list for PBXNativeTarget "drinkingappTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				20FE30E41F549A950004F8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20FE30E51F549A950004F8C6 /* Build configuration list for PBXNativeTarget "drinkingappUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				20FE30E71F549A950004F8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
