@@ -88,9 +88,29 @@
                                     <segue destination="u1J-Sf-zRS" kind="show" id="x06-8o-mzb"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-Sl-ZrF">
+                                <rect key="frame" x="296" y="65" width="73" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-YA-Hut">
+                                <rect key="frame" x="296" y="373" width="73" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xx7-ka-qcZ">
+                                <rect key="frame" x="286" y="220" width="73" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="CounterViewer" destination="2dd-Sl-ZrF" id="j6v-1r-ey5"/>
+                        <outlet property="CounterViewer2" destination="xx7-ka-qcZ" id="EMa-FF-eaO"/>
+                        <outlet property="CounterViewer3" destination="vUd-YA-Hut" id="p6H-Ee-BES"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iiy-34-SkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

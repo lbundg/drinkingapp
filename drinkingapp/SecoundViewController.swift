@@ -21,7 +21,18 @@ class SecoundViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var CounterViewer: UIView!
+    
+    @IBOutlet weak var CounterViewer2: UIView!
+    
+    @IBOutlet weak var CounterViewer3: UIView!
+    
+   // @IBAction func counter(sender: AnyObject) {
+    //    CounterViewer = "\(CounterViewer.toInt() + 1)"
+   // }
 
+    
+    
     /*
     // MARK: - Navigation
 
