@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2071B82B1F549F590054FC95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071B82A1F549F590054FC95 /* FirstViewController.swift */; };
 		2071B82D1F549F9B0054FC95 /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */; };
+		2071B8311F54AA170054FC95 /* Party_drinkingapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2071B8301F54AA170054FC95 /* Party_drinkingapp.jpg */; };
 		20FE30BB1F549A950004F8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE30BA1F549A950004F8C6 /* AppDelegate.swift */; };
 		20FE30C01F549A950004F8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FE30BE1F549A950004F8C6 /* Main.storyboard */; };
 		20FE30C21F549A950004F8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FE30C11F549A950004F8C6 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		2071B82A1F549F590054FC95 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
 		2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecoundViewController.swift; sourceTree = "<group>"; };
+		2071B8301F54AA170054FC95 /* Party_drinkingapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Party_drinkingapp.jpg; sourceTree = SOURCE_ROOT; };
 		20FE30B71F549A950004F8C6 /* drinkingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FE30BA1F549A950004F8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20FE30BF1F549A950004F8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				EBE7BF0F1F54A258005EE37C /* bier_drinkingapp.jpg */,
 				EBE7BF101F54A258005EE37C /* cocktail_drinkingapp.jpg */,
 				EBE7BF111F54A258005EE37C /* shot_drinkingapp.jpg */,
+				2071B8301F54AA170054FC95 /* Party_drinkingapp.jpg */,
 				EBE7BF121F54A258005EE37C /* Welcome_drinkingapp.jpg */,
 				20FE30BA1F549A950004F8C6 /* AppDelegate.swift */,
 				20FE30BE1F549A950004F8C6 /* Main.storyboard */,
@@ -249,6 +252,7 @@
 			files = (
 				EBE7BF161F54A258005EE37C /* Welcome_drinkingapp.jpg in Resources */,
 				20FE30C51F549A950004F8C6 /* LaunchScreen.storyboard in Resources */,
+				2071B8311F54AA170054FC95 /* Party_drinkingapp.jpg in Resources */,
 				EBE7BF151F54A258005EE37C /* shot_drinkingapp.jpg in Resources */,
 				EBE7BF141F54A258005EE37C /* cocktail_drinkingapp.jpg in Resources */,
 				20FE30C21F549A950004F8C6 /* Assets.xcassets in Resources */,
