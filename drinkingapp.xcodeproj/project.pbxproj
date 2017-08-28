@@ -19,7 +19,6 @@
 		EBE7BF141F54A258005EE37C /* cocktail_drinkingapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE7BF101F54A258005EE37C /* cocktail_drinkingapp.jpg */; };
 		EBE7BF151F54A258005EE37C /* shot_drinkingapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE7BF111F54A258005EE37C /* shot_drinkingapp.jpg */; };
 		EBE7BF161F54A258005EE37C /* Welcome_drinkingapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE7BF121F54A258005EE37C /* Welcome_drinkingapp.jpg */; };
-		EBE7BF181F54A32D005EE37C /* Party_launchskreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE7BF171F54A32D005EE37C /* Party_launchskreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		EBE7BF101F54A258005EE37C /* cocktail_drinkingapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cocktail_drinkingapp.jpg; sourceTree = SOURCE_ROOT; };
 		EBE7BF111F54A258005EE37C /* shot_drinkingapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shot_drinkingapp.jpg; sourceTree = SOURCE_ROOT; };
 		EBE7BF121F54A258005EE37C /* Welcome_drinkingapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome_drinkingapp.jpg; sourceTree = SOURCE_ROOT; };
-		EBE7BF171F54A32D005EE37C /* Party_launchskreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Party_launchskreen.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				2071B82A1F549F590054FC95 /* FirstViewController.swift */,
 				2071B82C1F549F9B0054FC95 /* SecoundViewController.swift */,
 				EBE7BF0F1F54A258005EE37C /* bier_drinkingapp.jpg */,
-				EBE7BF171F54A32D005EE37C /* Party_launchskreen.jpg */,
 				EBE7BF101F54A258005EE37C /* cocktail_drinkingapp.jpg */,
 				EBE7BF111F54A258005EE37C /* shot_drinkingapp.jpg */,
 				EBE7BF121F54A258005EE37C /* Welcome_drinkingapp.jpg */,
@@ -257,7 +254,6 @@
 				20FE30C21F549A950004F8C6 /* Assets.xcassets in Resources */,
 				20FE30C01F549A950004F8C6 /* Main.storyboard in Resources */,
 				EBE7BF131F54A258005EE37C /* bier_drinkingapp.jpg in Resources */,
-				EBE7BF181F54A32D005EE37C /* Party_launchskreen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
