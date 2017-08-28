@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,19 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Wilkommen bei der Party Meile" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-3R-Xkk">
-                                <rect key="frame" x="88" y="318" width="221" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Welcome_drinkingapp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8sq-fk-nHi">
+                                <rect key="frame" x="16" y="52.5" width="343" height="562"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Wilkommen bei der Party Meile" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-3R-Xkk">
+                                <rect key="frame" x="77" y="52" width="221" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Welcome_drinkingapp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8sq-fk-nHi">
-                                <rect key="frame" x="67" y="20" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ud0-3R-Xkk" firstAttribute="top" secondItem="8sq-fk-nHi" secondAttribute="bottom" id="e5n-4e-gko"/>
+                            <constraint firstItem="8sq-fk-nHi" firstAttribute="centerY" secondItem="FM1-df-YUX" secondAttribute="centerY" id="gcp-1P-FTX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8sq-fk-nHi" secondAttribute="trailing" id="h0d-vs-wdh"/>
+                            <constraint firstItem="ud0-3R-Xkk" firstAttribute="top" secondItem="8sq-fk-nHi" secondAttribute="bottom" id="tKq-u5-Thm"/>
+                            <constraint firstItem="8sq-fk-nHi" firstAttribute="leading" secondItem="FM1-df-YUX" secondAttribute="leadingMargin" id="ubf-tn-UUg"/>
+                            <constraint firstItem="8sq-fk-nHi" firstAttribute="centerX" secondItem="FM1-df-YUX" secondAttribute="centerX" id="xOc-8R-VeK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8yh-58-3SS" userLabel="First Responder" sceneMemberID="firstResponder"/>
