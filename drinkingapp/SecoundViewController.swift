@@ -10,6 +10,34 @@ import UIKit
 
 class SecoundViewController: UIViewController {
 
+    @IBOutlet weak var anzahlBier: UILabel!
+    @IBOutlet weak var anzahlCoctail: UILabel!
+    @IBOutlet weak var anzahlShot: UILabel!
+    //Conection Lable
+    
+    var bier: Int  = 0
+    var coctail: Int = 0
+    var shot: Int = 0
+    
+    @IBAction func beerButton(_ sender: Any) {
+        
+        bier = bier + 1
+        anzahlBier.text = "\(bier)"
+    }
+    
+    
+    @IBAction func coctailButton(_ sender: Any) {
+        coctail = coctail + 1
+        anzahlCoctail.text = "\(coctail)"
+    }
+    
+    
+    @IBAction func shotButton(_ sender: Any) {
+        shot = shot + 1
+        anzahlShot.text = "\(shot)"
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,22 +49,18 @@ class SecoundViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var CounterViewer: UIView!
+   // @IBOutlet weak var CounterViewer: UIView!
     
-    @IBOutlet weak var CounterViewer2: UIView!
+ //   @IBOutlet weak var CounterViewer2: UIView!
     
-    @IBOutlet weak var CounterViewer3: UIView!
+  //  @IBOutlet weak var CounterViewer3: UIView!
     
    // @IBAction func counter(sender: AnyObject) {
     //    CounterViewer = "\(CounterViewer.toInt() + 1)"
    // }
 
     
-    // comment Berni
-    // comment from us
-    //but not from us vincent
-    
-    //and from us
+   
     
     /*
     // MARK: - Navigation

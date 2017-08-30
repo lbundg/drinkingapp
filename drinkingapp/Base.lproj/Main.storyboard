@@ -69,16 +69,25 @@
                                 <rect key="frame" x="67" y="373" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Shot"/>
+                                <connections>
+                                    <action selector="shotButton:" destination="10v-99-Ukb" eventType="touchUpInside" id="zmp-gy-QYf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0t9-qd-nle">
                                 <rect key="frame" x="67" y="220" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Coctail"/>
+                                <connections>
+                                    <action selector="coctailButton:" destination="10v-99-Ukb" eventType="touchUpInside" id="zcX-xT-Obf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMQ-Tg-ZAq">
                                 <rect key="frame" x="67" y="41" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Beer"/>
+                                <connections>
+                                    <action selector="beerButton:" destination="10v-99-Ukb" eventType="touchUpInside" id="ctP-6Y-9JA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1z-wJ-qY7">
                                 <rect key="frame" x="268" y="617" width="91" height="30"/>
@@ -88,28 +97,34 @@
                                     <segue destination="u1J-Sf-zRS" kind="show" id="x06-8o-mzb"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-Sl-ZrF">
-                                <rect key="frame" x="296" y="41" width="73" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-bl-phw">
+                                <rect key="frame" x="289" y="41" width="70" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-YA-Hut">
-                                <rect key="frame" x="296" y="373" width="73" height="128"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="403-AO-tcc">
+                                <rect key="frame" x="289" y="220" width="70" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xx7-ka-qcZ">
-                                <rect key="frame" x="286" y="220" width="73" height="128"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLo-f4-jk3">
+                                <rect key="frame" x="289" y="373" width="70" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="CounterViewer" destination="2dd-Sl-ZrF" id="j6v-1r-ey5"/>
-                        <outlet property="CounterViewer2" destination="xx7-ka-qcZ" id="EMa-FF-eaO"/>
-                        <outlet property="CounterViewer3" destination="vUd-YA-Hut" id="p6H-Ee-BES"/>
+                        <outlet property="anzahlBier" destination="5jD-bl-phw" id="86F-Tn-xrx"/>
+                        <outlet property="anzahlCoctail" destination="403-AO-tcc" id="6g7-3u-0MI"/>
+                        <outlet property="anzahlShot" destination="TLo-f4-jk3" id="OOs-Ak-9bG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iiy-34-SkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
