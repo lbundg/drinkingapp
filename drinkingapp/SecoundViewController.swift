@@ -18,25 +18,33 @@ class SecoundViewController: UIViewController {
     var bier: Int  = 0
     var coctail: Int = 0
     var shot: Int = 0
+    var punktzahl: Int = 0
+    
+    
     
     @IBAction func beerButton(_ sender: Any) {
         
         bier = bier + 1
         anzahlBier.text = "\(bier)"
     }
-    
+    // count beers
     
     @IBAction func coctailButton(_ sender: Any) {
         coctail = coctail + 1
         anzahlCoctail.text = "\(coctail)"
     }
-    
+    // count coctails
     
     @IBAction func shotButton(_ sender: Any) {
         shot = shot + 1
         anzahlShot.text = "\(shot)"
     }
+    //count shots
     
+    @IBAction func berechnePunktzahl(_ sender: Any) {
+        punktzahl = shot + bier * 2 + coctail * 3
+    }
+    // berechne Punktzahl
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +54,7 @@ class SecoundViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
     }
     
