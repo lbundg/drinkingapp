@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 var punktzahl: Int = 0
 
 class SecoundViewController: UIViewController {
