@@ -7,6 +7,7 @@
 //
 
 import UIKit
+var punktzahl: Int = 0
 
 class SecoundViewController: UIViewController {
 
@@ -18,8 +19,6 @@ class SecoundViewController: UIViewController {
     var bier: Int  = 0
     var coctail: Int = 0
     var shot: Int = 0
-    var punktzahl: Int = 0
-    
     
     
     @IBAction func beerButton(_ sender: Any) {
