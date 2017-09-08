@@ -11,8 +11,8 @@ import UIKit
 class ThirdViewController: UIViewController {
     
     
-    @IBOutlet weak var punktelable: UILabel!
- 
+    @IBOutlet weak var punktelable: UILabel! 
+    @IBOutlet weak var lablePunktzahl: UILabel!
     
     
 

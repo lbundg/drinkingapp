@@ -15,6 +15,7 @@ class SecoundViewController: UIViewController {
     @IBOutlet weak var anzahlBier: UILabel!
     @IBOutlet weak var anzahlCoctail: UILabel!
     @IBOutlet weak var anzahlShot: UILabel!
+    @IBOutlet weak var berechnePunkte: UIButton!
     //Conection Lable
     
     var bier: Int  = 0

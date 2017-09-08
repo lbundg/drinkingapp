@@ -94,7 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Berechne"/>
                                 <connections>
-                                    <action selector="berechnePunktzahl:" destination="10v-99-Ukb" eventType="touchUpInside" id="pXU-3d-Z4F"/>
+                                    <action selector="berechnePunktzahl:" destination="10v-99-Ukb" eventType="touchUpInside" id="CIs-oA-TLf"/>
                                     <segue destination="u1J-Sf-zRS" kind="show" id="x06-8o-mzb"/>
                                 </connections>
                             </button>
@@ -126,6 +126,7 @@
                         <outlet property="anzahlBier" destination="5jD-bl-phw" id="86F-Tn-xrx"/>
                         <outlet property="anzahlCoctail" destination="403-AO-tcc" id="6g7-3u-0MI"/>
                         <outlet property="anzahlShot" destination="TLo-f4-jk3" id="OOs-Ak-9bG"/>
+                        <outlet property="berechnePunkte" destination="h1z-wJ-qY7" id="Np4-DZ-hlv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iiy-34-SkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -169,7 +170,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="lablePunktzahl" destination="dPA-Ue-H41" id="YHK-Fd-ykG"/>
+                        <outlet property="lablePunktzahl" destination="dPA-Ue-H41" id="ivj-R6-ftn"/>
                         <outlet property="punktelable" destination="dPA-Ue-H41" id="QPH-TV-hn5"/>
                     </connections>
                 </viewController>
