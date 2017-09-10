@@ -14,13 +14,12 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var punktelable: UILabel! 
     @IBOutlet weak var lablePunktzahl: UILabel!
     
+    @IBOutlet weak var punkte: UILabel!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-
         // Do any additional setup after loading the view.
+        punktelable.text = String(punktzahl);
     }
 
     override func didReceiveMemoryWarning() {

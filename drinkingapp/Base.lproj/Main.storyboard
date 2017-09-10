@@ -170,7 +170,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="Punkte" destination="dPA-Ue-H41" id="U0K-jF-Lz5"/>
                         <outlet property="lablePunktzahl" destination="dPA-Ue-H41" id="ivj-R6-ftn"/>
+                        <outlet property="punkte" destination="dPA-Ue-H41" id="gvL-TM-Pgo"/>
                         <outlet property="punktelable" destination="dPA-Ue-H41" id="QPH-TV-hn5"/>
                     </connections>
                 </viewController>
